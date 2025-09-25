@@ -10,6 +10,8 @@ console.log(5 >= 10); // false
 
 console.log(10 <= 10); // true
 
-console.log("ABC"=="ABC"); // true
+console.log("ABC" == "ABC"); // true
 
-console.log("ABC"=="abc"); // false
+console.log("ABC" == "abc"); // false
+
+console.log("Z" == "A"); // false
