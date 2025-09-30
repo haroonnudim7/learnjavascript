@@ -27,9 +27,13 @@ console.log(fishes);
 // Remove the first element from an array
 let cars = ['Audi', 'BMW', 'Mercedes'];
 cars.shift();
-console.log(cars);
+console.log(cars); 
 
 // Find the index of an element in an array
 let fruits = ['apple', 'banana', 'cherry', 'date'];
 let pos = fruits.indexOf('apple');
 console.log(pos);
+
+// Get the length of an array
+let sports = ['soccer', 'basketball', 'tennis', 'baseball'];
+console.log(sports.length);
