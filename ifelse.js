@@ -9,7 +9,7 @@ if (balance > 5000) {
 }
 console.log("The end!");
 
-let colours = "car";
+let colours = "red";
 if (colours === "red") {
     console.log("The colour is red");
 } else if (colours === "blue") {
