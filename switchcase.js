@@ -11,7 +11,7 @@ switch (age) {
 }
 
 let num = 0;
-switch (num) {
+switch (num === 0) {
   case true:
     console.log("Hello True!");
     break;
