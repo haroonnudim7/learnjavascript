@@ -8,3 +8,10 @@ if (balance > 5000) {
   console.log("Sorry, not enough money. Save more!");
 }
 console.log("The end!");
+
+let colour = "red";
+if (colour === "red") {
+    console.log("The colour is red");
+} else if (colour === "blue") {
+    console.log("The colour is blue");
+}
