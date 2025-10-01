@@ -1,5 +1,5 @@
 let age = 15;
-switch (15) {
+switch (age) {
     case 10:
         console.log("Age is 10");
         break;
@@ -10,8 +10,14 @@ switch (15) {
                 console.log("Age is neither 10 nor 20");
 }
 
-let num = 1;
+let num = 0;
 switch (num) {
-    case 1:
-        console.log("Hello World");
+  case true:
+    console.log("Hello True!");
+    break;
+  case false:
+    console.log("Bonjour False!");
+    break;
+  default:
+    console.log("No matching case");
 }
