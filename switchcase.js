@@ -48,3 +48,14 @@ switch (weekdayNumber) {
                                 default:
                                     console.log("The weekday number is invalid");
 }
+
+let myFood = "Banana";
+switch(myFood) {
+    case "Banana":
+    case "Apple":
+        console.log("Eat fruits everyday to keep you healthy.");
+        break;
+        case "Chocolate Cake":
+            console.log("Enjoy the sweet treat.");
+            break;
+}
