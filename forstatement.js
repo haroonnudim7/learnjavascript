@@ -13,7 +13,7 @@ console.log("The for loop has ended");
 console.log("Continue code execution");
 
 
-//Head and Tails
+//Head and Tails For Loops
 
 let heads = 0;
 let tails = 0;
