@@ -1,5 +1,7 @@
-function greet(name) {
+function greet(name, weather) {
     console.log(`Hello, ${name}!`);
-    console.log("Nice weather today right?");
+    console.log(`It's ${weather} today right?`);
 }
-greet("Alice");
+greet("Alice", "rainy");
+
+
