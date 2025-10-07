@@ -4,13 +4,16 @@ function greet(name, weather) {
 }
 greet("Alice", "rainy");
 
+
+
+
+//Return Statements
 function sum (a, b) {
     return a +b;
 }
 let result = sum(3, 5);
 console.log(result);
 
-// Return Statement
 function checkAge(age) {
     if (age > 18) {
         return "You may get a car license";
